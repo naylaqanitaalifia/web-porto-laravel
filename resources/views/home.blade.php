@@ -4,9 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Digifolium, mitra tepercaya bagi penjual dan pemilik merek di Indonesia. Dapatkan jasa kelola dan optimasi toko online di berbagai marketplace untuk meningkatkan penjualan produk Anda.">
-    <meta name="keywords" content="Optimasi Toko Online, Manajemen Marketplace, Jasa Kelola Toko, Optimalisasi Penjualan">
-
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
