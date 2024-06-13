@@ -67,14 +67,17 @@
                     <div class="subtitle">A software and game development student who is passionate about creating innovative solutions. Explore my projects and skills to learn more about my journey in the world of technology.</div>
                     <a href="#" class="btn btn-get-touch">Get In Touch</a>
                     <div class="logo-wrapper">
-                        <i class='bx bxl-linkedin'></i>
-                        <a href="https://www.linkedin.com/in/nayla-qanita-alifia-0644772b5/"></a>
+                        <a href="https://www.linkedin.com/in/nayla-qanita-alifia-0644772b5/" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
 
-                        <i class='bx bxl-github' ></i>
-                        <a href="https://github.com/naylaqanitaalifia"></a>
+                        <a href="https://github.com/naylaqanitaalifia" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
 
-                        <i class='bx bxl-instagram' ></i>
-                        <a href="https://www.instagram.com/q4nlf_/"></a>
+                        <a href="https://www.instagram.com/q4nlf_/" target="_blank">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 img-wrapper d-none d-md-block">
