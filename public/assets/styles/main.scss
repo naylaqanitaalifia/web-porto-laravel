@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:white !important;
+}
+
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar {
+    .navbar-brand {
+      font-size: 26px;
+      font-weight: 500;
+    }
+}
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 500;
+  }
+.navbar-light {
+    background-color: white;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 16px 24px;
+    .navbar-nav {
+      .nav-link {
+        color: #131313;
+        font-weight: 300;
+        &.active {
+            color: #131313;
+          font-weight: 500;
+        }
+      }
+    }
+}
+
+
+
+.section-header {
+    margin-top: 64px;
+    padding: 48px 0px;
+    background-color: #F6FCFF;
+    .text-wrapper {
+        .small-text{
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .title {
+            font-size: 32px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+        .btn-get-touch {
+            background-color: #5E3BEE;
+            color: white;
+            padding: 8px 24px;
+        }
+        .logo-wrapper {
+            padding-top: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            img {
+                padding-right: 8px;
+                width: 32px;
+            }
+        }
+    }
+    .img-wrapper {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+.section-about {
+    padding: 48px 0px;
+    .title {
+        border-left: 3px solid #5E3BEE;
+        padding-left: 12px;
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .subtitle {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.section-skill {
+    padding: 48px 0px;
+    .title {
+        border-left: 3px solid #5E3BEE;
+        padding-left: 12px;
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .img-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 80%;
+        }
+    }
+}
+
+.section-projects {
+    padding: 48px 0px;
+    background-color: #F6FCFF;
+    .title {
+        border-left: 3px solid #5E3BEE;
+        padding-left: 12px;
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .card-project {
+        &:hover {
+            cursor: pointer;
+            .project {
+                color: #5E3BEE;
+            }
+        }
+        .img-wrapper {
+            img {
+                width: 100%;
+            }
+        }
+        .text-wrapper {
+            padding: 24px;
+            background-color: #fff;
+            .project {
+                margin-bottom: 8px;
+                font-weight: 500;
+                font-size: 18px;
+                &:hover {
+                    color: #5E3BEE;
+                    cursor: pointer;
+                }
+            }
+            .desc {
+                display: -webkit-box;        /* Menggunakan WebKit box layout */
+                -webkit-box-orient: vertical;/* Mengatur orientasi box menjadi vertikal */
+                -webkit-line-clamp: 2;       /* Batasi teks hanya sampai 2 baris */
+                overflow: hidden;            /* Sembunyikan teks yang melebihi batas */
+                text-overflow: ellipsis;     /* Tambahkan elipsis pada teks yang terpotong */
+                line-height: 1.5;            /* Menyesuaikan tinggi baris untuk tampilan yang lebih baik */
+                max-height: calc(1.5em * 4); /* Menentukan tinggi maksimal untuk 4 baris teks */
+            }
+        }
+    }
+}
+
+.section-certificate {
+    padding: 48px 0px;
+    .title {
+        border-left: 3px solid #5E3BEE;
+        padding-left: 12px;
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .card-certificate {
+        &:hover {
+            cursor: pointer;
+            .project {
+                color: #5E3BEE;
+            }
+        }
+        .img-wrapper {
+            img {
+                width: 100%;
+            }
+        }
+        .text-wrapper {
+            padding-top: 24px;
+            background-color: #fff;
+            .project {
+                font-weight: 500;
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+            .year {
+                font-size: 14px;
+                color: #a8a8a8;
+                margin-bottom: 4px;
+            }
+            .desc {
+                display: -webkit-box;        /* Menggunakan WebKit box layout */
+                -webkit-box-orient: vertical;/* Mengatur orientasi box menjadi vertikal */
+                -webkit-line-clamp: 2;       /* Batasi teks hanya sampai 2 baris */
+                overflow: hidden;            /* Sembunyikan teks yang melebihi batas */
+                text-overflow: ellipsis;     /* Tambahkan elipsis pada teks yang terpotong */
+                line-height: 1.5;            /* Menyesuaikan tinggi baris untuk tampilan yang lebih baik */
+                max-height: calc(1.5em * 4); /* Menentukan tinggi maksimal untuk 4 baris teks */
+            }
+        }
+    }
+}
